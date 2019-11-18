@@ -9,25 +9,25 @@
 
 ## 安裝
 
-執行 [東風破](https://github.com/rime/plum) 的 `rime-install` 命令安裝以下配方：
+1) 執行 [東風破](https://github.com/rime/plum) 的 `rime-install` 命令安裝以下配方：
 
 ```bash
 $ bash rime-install GJRobert/rime-theme-mango_de_toi
 ```
 
-若為 Windows 小狼毫：
+2a) 若為 Windows 小狼毫：
 
 ```bash
 $ bash rime-install GJRobert/rime-theme-mango_de_toi:customize:frontend=weasel
 ```
 
-若為 macOS 鼠鬚管：
+2b) 若為 macOS 鼠鬚管：
 
 ```bash
 $ bash rime-install GJRobert/rime-theme-mango_de_toi:customize:frontend=squirrel
 ```
 
-最後在 weasel.custom.yaml 或 squirrel.custom.yaml 中，將 `style/color_scheme:` 改為 `mango_de_toi`
+3) 最後在 weasel.custom.yaml 或 squirrel.custom.yaml 中，將 `style/color_scheme:` 改為 `mango_de_toi`
 
 ## 相容性
 鼠鬚管及小狼毫應該均可正常使用。
